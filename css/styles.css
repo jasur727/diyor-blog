@@ -87,7 +87,7 @@ body {
   font-size: 25px;
 }
 
-.nav {
+.list-navigation {
   margin-left: auto;
 }
 
@@ -210,13 +210,13 @@ body {
     display: none;
   }
 
+  .header-open .list-navigation {
+    display: block;
+  }
+
   .button-togler {
     display: block;
     margin-left: auto;
-  }
-
-  .header-open .list-navigation {
-    display: block;
   }
 
   .button-togler {
@@ -230,6 +230,7 @@ body {
   }
 
   .header-open .button-togler {
+    margin-left: auto;
     background-image: url('../img/close.svg');
   }
 
@@ -253,7 +254,7 @@ body {
     position: absolute;
     z-index: 1;
     overflow: auto;
-    top: calc(50% - 194px);
+    top: calc(50% - 264px);
     right: 13px;
     display: none;
     background-color: rgb(51, 51, 51);
