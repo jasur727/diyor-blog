@@ -230,7 +230,7 @@ body {
   }
 
   .header-open .button-togler {
-    margin-left: auto;
+    margin-left: 144px;
     background-image: url('../img/close.svg');
   }
 
