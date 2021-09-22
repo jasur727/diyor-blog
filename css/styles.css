@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'HelveticaNeueCyr';
   src: url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
-      url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+    url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 @font-face {
   font-family: 'HelveticaNeueCyr';
   src: url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
-      url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
+    url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 @font-face {
   font-family: 'HelveticaNeueCyr';
   src: url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
-      url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+    url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -28,7 +28,7 @@
 @font-face {
   font-family: 'HelveticaNeueCyr';
   src: url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
-      url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
+    url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -37,7 +37,7 @@
 @font-face {
   font-family: 'HelveticaNeueCyr';
   src: url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
-      url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
+    url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -46,7 +46,7 @@
 @font-face {
   font-family: 'HelveticaNeueCyr';
   src: url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
-      url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
+    url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -65,7 +65,7 @@ html {
   margin: 0;
 }
 
-body{
+body {
   font-family: 'HelveticaNeueCyr', Arial, sans-serif;
 }
 
@@ -91,11 +91,15 @@ body{
   margin-left: auto;
 }
 
+.list-navigation {
+  display: block;
+}
+
 .site-nav {
   margin-left: 15px;
 }
 
-.site-nav__item{
+.site-nav__item {
   color: rgb(44, 44, 43);
   border-bottom: 3px solid #fff;
   padding-bottom: 5px;
@@ -145,7 +149,7 @@ body{
 }
 
 .github-icon {
-  fill:rgb(0, 0, 0);
+  fill: rgb(0, 0, 0);
 }
 
 .twitter {
@@ -153,7 +157,7 @@ body{
 }
 
 .twitter-icon {
-  fill:rgb(0, 0, 0);
+  fill: rgb(0, 0, 0);
 }
 
 .about-blog {
@@ -197,9 +201,65 @@ body{
 
 @media only screen and (max-width: 450px) {
 
-
   .feature {
     margin-left: 15px;
     margin-top: 100px;
+  }
+
+  .list-navigation {
+    display: none;
+  }
+
+  .button-togler {
+    display: block;
+    margin-left: auto;
+  }
+
+  .header-open .list-navigation {
+    display: block;
+  }
+
+  .button-togler {
+    width: 24px;
+    height: 15px;
+    background-color: transparent;
+    border: none;
+    background-image: url('../img/hamburger.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .header-open .button-togler {
+    background-image: url('../img/close.svg');
+  }
+
+  .site-nav {
+    margin-left: 0;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .site-nav__item {
+    border-bottom: none;
+    text-align: center;
+    color: #fff;
+  }
+
+  .site-nav__list {
+    position: absolute;
+    z-index: 1;
+    overflow: auto;
+    top: calc(50% - 194px);
+    right: 13px;
+    display: none;
+    background-color: rgb(51, 51, 51);
+  }
+
+  .site-nav__item:hover {
+    display: none;
   }
 }

@@ -1,5 +1,5 @@
-var elHeaderSection = document.querySelector('.site-header');
-var elHeaderButton = elHeaderSection.querySelector('.site-header__button');
+var elHeaderSection = document.querySelector('.header');
+var elHeaderButton = elHeaderSection.querySelector('.button-togler');
 
 
 if(elHeaderButton){
