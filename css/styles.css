@@ -175,3 +175,17 @@ body{
 .about-me {
   margin-left: 15px;
 }
+
+.about-text {
+  max-width: 100%;
+  width: 45%;
+}
+
+.feature {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.footer {
+  margin-bottom: 100px;
+}
