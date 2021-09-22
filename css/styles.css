@@ -230,7 +230,7 @@ body {
   }
 
   .header-open .button-togler {
-    margin-left: 110px;
+    margin-left: 117px;
     background-image: url('../img/close.svg');
   }
 
@@ -242,6 +242,14 @@ body {
     display: flex;
     flex-direction: column;
     padding: 30px;
+  }
+
+  .blog {
+    margin-top: 8px;
+  }
+
+  .channel {
+    margin-top: 8px;
   }
 
   .site-nav__item {
