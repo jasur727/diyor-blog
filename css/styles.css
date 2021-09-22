@@ -92,7 +92,7 @@ body{
 }
 
 .site-nav {
-  margin-right: 20px;
+  margin-left: 15px;
 }
 
 .site-nav__item{
@@ -188,4 +188,18 @@ body{
 
 .footer {
   margin-bottom: 100px;
+}
+
+.button-togler {
+  display: none;
+}
+
+
+@media only screen and (max-width: 450px) {
+
+
+  .feature {
+    margin-left: 15px;
+    margin-top: 100px;
+  }
 }
