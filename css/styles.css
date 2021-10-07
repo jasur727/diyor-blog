@@ -73,6 +73,10 @@ body {
   margin-bottom: 50px;
 }
 
+.header-wrapper {
+  background-color: rgba(214, 214, 214, 0.116);
+}
+
 .header-blog {
   color: black;
 }
@@ -101,7 +105,7 @@ body {
 
 .site-nav__item {
   color: rgb(44, 44, 43);
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid transparent;
   padding-bottom: 5px;
   transition: all 0.5s ease;
 }
