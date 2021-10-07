@@ -1,3 +1,16 @@
 .main-wrapper {
   background-color: rgba(238, 238, 238, 0.26);
 }
+
+.main-img {
+  width: 100%;
+  height: auto;
+}
+
+.main-span__python {
+  color: rgba(0, 0, 0, 0.473);
+}
+
+.footer-about {
+  margin-bottom: 50px;
+}
