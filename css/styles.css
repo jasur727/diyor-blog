@@ -69,10 +69,6 @@ body {
   font-family: 'HelveticaNeueCyr', Arial, sans-serif;
 }
 
-.header {
-  margin-bottom: 50px;
-}
-
 .header-wrapper {
   background-color: rgba(214, 214, 214, 0.116);
 }
@@ -112,6 +108,7 @@ body {
 
 .site-nav__item:hover {
   color: rgb(24, 92, 218);
+  padding-bottom: 5px;
   border-bottom: 3px solid rgb(0, 0, 0);
 }
 
@@ -258,7 +255,7 @@ body {
     position: absolute;
     z-index: 1;
     overflow: auto;
-    top: calc(50% - 280px);
+    top: calc(50% - 180px);
     right: 13px;
     display: none;
     background-color: rgb(51, 51, 51);

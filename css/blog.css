@@ -1,0 +1,42 @@
+.year-2021 {
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(102, 102, 102, 0.692);
+  padding: 3px 8px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.octabr-month {
+  padding-left: 30px;
+}
+
+.frountend-content {
+  width: 50%;
+  border-bottom: 2px solid rgba(194, 194, 194, 0.534);
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-left: 30px;
+}
+
+.frountend-content:hover{
+  box-shadow: 0px 1px 14px 2px black;
+}
+
+.wrapper {
+  border-top: 2px solid rgba(194, 194, 194, 0.534);
+}
+
+.frountend-span {
+  margin-top: 15px;
+  color: rgb(128, 128, 128);
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.frountend-haqida {
+  color: rgba(0, 0, 0, 0.767);
+}
